@@ -1,0 +1,41 @@
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --pr-color:#009688;
+    --sec-color:#fdc403;
+    --paragraph:#a5a5a5;
+}
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+
+
+/******** registro de Reservas *******/
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.date-reserve{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin:30px 0;
+    color: var(--paragraph);
+    text-align: justify;
+}
+
+.text-reserve{
+    margin: 20px 0;
+}
+
+.img-encabezado img{
+    max-width: 100%;
+    background-size: cover;
+}

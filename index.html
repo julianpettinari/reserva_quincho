@@ -6,15 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Reserva Quincho</title>
+
+    <!-- material design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-orange.min.css" />
+
+    <!--Google Font-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
 </head>
 <body>
-    <h1>Reserva</h1>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-logo">Reserva Terraza</span>
+          </div>
+        </header>
+    <main>
+        <div class="container">
+            <div class="img-encabezado">
+                <img src="/img/07_dinner_out.jpg">
+            </div>
+            <div class="date-reserve col-md-8">
+                <div class="text-reserve">
+                    Este es un formulario sirve para reservar la terraza. <br/>
+                    Primero debes verificar la disponibilidad de fechas en la siguiente tabla, luego puedes completar el formulario para realizar tu reserva.
+
+                </div>
+                <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+                    <thead>
+                      <tr>
+                        <th class="mdl-data-table__cell--non-numeric">Día reservado</th>
+                        <th>Horario</th>
+                        <th>Departamento</th>
+                        <th>Reservado el día</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
+                        <td>25</td>
+                        <td>$2.90</td>
+                      </tr>
+                      <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
+                        <td>50</td>
+                        <td>$1.25</td>
+                      </tr>
+                      <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
+                        <td>10</td>
+                        <td>$2.35</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </main>
     <h2>Fechas reservadas:</h2>
     <!-- Prueba visualización Sheets desde Google-->
     <iframe width="640" height="340" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZyoXqvkJ_WxbYMzqsaw7QsuVtXAkYw-Lw6zkWXJMni6KdfyIYmMd5znua1G3SdWfu8ahPQrduQ98Y/pubhtml?gid=2060422622&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
     <br>
     <!-- Prueba visualización Formulario desde Google-->
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfXKQa3MHEBkBakxRFnbWN_f7FWybrq52VaR-JjAPk-9sgGXA/viewform?embedded=true" width="640" height="1089" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-    
+
 </body>
 </html>
