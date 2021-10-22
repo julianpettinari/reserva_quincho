@@ -39,3 +39,10 @@ main{
     max-width: 100%;
     background-size: cover;
 }
+
+iframe{
+    display: block;
+    margin: auto;
+    border: none;
+    width: 50% !important;
+}
