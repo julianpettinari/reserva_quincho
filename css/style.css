@@ -8,6 +8,9 @@
     box-sizing: border-box;
 }
 
+html{
+    display: block;
+}
 
 
 /******** registro de Reservas *******/
@@ -21,6 +24,9 @@ main{
 .container{
     width: 70%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .date-reserve{
@@ -38,11 +44,20 @@ main{
 .img-encabezado img{
     max-width: 100%;
     background-size: cover;
+    align-items:center;
+}
+
+
+/*** Table ****/
+.mdl-data-table{
+ width: 100%;
+ margin:20px 0 0 0;
 }
 
 iframe{
     display: block;
     margin: auto;
     border: none;
-    width: 50% !important;
+    width: 80% !important;
+    overflow: hidden;
 }
